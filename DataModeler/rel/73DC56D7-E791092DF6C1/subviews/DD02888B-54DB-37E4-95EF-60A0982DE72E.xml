@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="DD02888B-54DB-37E4-95EF-60A0982DE72E">
+<createdBy>janfi</createdBy>
+<modifiedBy>janfi</modifiedBy>
+<createdTime>2021-11-03 17:41:31 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="0BD12B66-EB54-BADF-0EB6-53E9DA9261BF" otype="Table" vid="D792F214-6620-E816-E209-52BF862EFD7A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="345" y="111" width="193" height="146"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="45632E34-F893-D290-02CB-2FB9CFEBD655" otype="Table" vid="38A712BC-F79C-5AB0-BD15-388FBF961B4D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="134" y="105" width="176" height="135"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="547B1B16-E964-BF8F-56BE-797910245819" otype="FKIndexAssociation" vid_source="38A712BC-F79C-5AB0-BD15-388FBF961B4D" vid_target="D792F214-6620-E816-E209-52BF862EFD7A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="310" y="175"/>
+<point x="345" y="175"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9D6E7C68-583F-85A6-4177-5B4B51E730F1" otype="FKIndexAssociation" vid_source="D792F214-6620-E816-E209-52BF862EFD7A" vid_target="38A712BC-F79C-5AB0-BD15-388FBF961B4D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="345" y="190"/>
+<point x="310" y="190"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

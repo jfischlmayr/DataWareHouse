@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CDAB243-276B-7585-9407-61DAC09E9322" name="Fact">
+<createdBy>janfi</createdBy>
+<createdTime>2021-11-03 17:41:43 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="73DC56D7-4952-5AB8-1B5C-E791092DF6C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="74FB047D-8B5B-04A8-296B-8267905D6DA3">
+<createdBy>janfi</createdBy>
+<createdTime>2021-11-03 17:41:55 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="73DC56D7-4952-5AB8-1B5C-E791092DF6C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VPI" id="2930BA05-6C04-4780-623A-267237361E93">
+<createdBy>janfi</createdBy>
+<createdTime>2021-11-03 17:42:07 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="73DC56D7-4952-5AB8-1B5C-E791092DF6C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="17B3059B-A880-2DDF-3228-5BEBCCA90374">
+<createdBy>janfi</createdBy>
+<createdTime>2021-11-03 17:43:55 UTC</createdTime>
+<generatorID>90AD9436-3DD3-1BF2-4B23-E24470CBDE75</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="73DC56D7-4952-5AB8-1B5C-E791092DF6C1" value="true"/>
+</engineerTo>
+<referedAttribute>394B0784-62EB-34E8-C817-83880A40F852</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B830C6A8-E499-AF39-AF99-C3522F426CF4" name="Fact PK">
+<createdBy>janfi</createdBy>
+<createdTime>2021-11-03 17:42:03 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="73DC56D7-4952-5AB8-1B5C-E791092DF6C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74FB047D-8B5B-04A8-296B-8267905D6DA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
